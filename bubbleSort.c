@@ -28,6 +28,7 @@ void main(){
     scanf("%d", &n);
 
     int arr[n];
+    n = sizeof(arr)/sizeof(arr[0]);
 
     printf("Enter values to sort: \n");
     for (int i = 0; i < n; i++) {
@@ -35,7 +36,6 @@ void main(){
         scanf("%d", &arr[i]);
     }
 
-    n = sizeof(arr)/sizeof(arr[0]);
 
     bubbleSort(arr, n);
     
@@ -43,4 +43,5 @@ void main(){
     for (int i = 0; i < n; i++) {   
         printf("%d ", arr[i]);
     }
+
 }
