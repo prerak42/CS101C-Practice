@@ -20,6 +20,7 @@ void selectionSort(int* arr, int n) {
 
 void main(){
     int n;
+    n = sizeof(arr)/sizeof(arr[0]);
 
     printf("Enter number of elements: \n");
     scanf("%d", &n);
@@ -32,12 +33,11 @@ void main(){
         scanf("%d", &arr[i]);
     }
 
-    n = sizeof(arr)/sizeof(arr[0]);
-
     selectionSort(arr, n);
 
     printf("Sorted array: \n");
     for (int i = 0; i < n; i++) {   
         printf("%d ", arr[i]);
     }
+
 }
