@@ -1,7 +1,3 @@
-//
-// Created by Prerak on 16/9/2025.
-//
-
 #include<stdio.h>
 
 void swap(int* arr, int i, int j) {
@@ -19,7 +15,6 @@ void bubbleSort(int* arr, int n) {
         }
     }
 }
-
     
 void main(){
     int n;
@@ -28,7 +23,6 @@ void main(){
     scanf("%d", &n);
 
     int arr[n];
-    n = sizeof(arr)/sizeof(arr[0]);
 
     printf("Enter values to sort: \n");
     for (int i = 0; i < n; i++) {
@@ -36,12 +30,10 @@ void main(){
         scanf("%d", &arr[i]);
     }
 
-
     bubbleSort(arr, n);
     
     printf("Sorted array: \n");
     for (int i = 0; i < n; i++) {   
         printf("%d ", arr[i]);
     }
-
 }
