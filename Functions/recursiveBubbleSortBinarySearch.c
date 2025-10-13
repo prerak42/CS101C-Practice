@@ -1,3 +1,8 @@
+/*
+ * Recursive Bubble Sort and Binary Search
+ * This program sorts an array using recursive bubble sort and then searches for an element using recursive binary search.
+*/
+
 #include<stdio.h>
 #include<math.h>
 

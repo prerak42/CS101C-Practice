@@ -2,7 +2,7 @@
  * Recursive Palindrome Checker and String Reverser
  * This program checks if a given string is a palindrome using recursion.
  * It also reverses the string using recursion.
- */
+*/
 
 #include<stdio.h>
 
