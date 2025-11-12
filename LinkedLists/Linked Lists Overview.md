@@ -38,3 +38,13 @@ Each node contains:
 - **Traverse**: Visit each node sequentially
 
 Linked lists are fundamental in implementing other data structures like stacks, queues, and graphs, and are useful when you need frequent insertions/deletions without knowing the size beforehand.
+
+
+In this directory, the **linkListInteractive** program implements the following functionalities:
+- Creates a linked list from user-provided values
+- Traverse the linked list
+- Add all the elements of the list
+- Find the maximum and minimum elements
+- Search a specific element by value
+- Delete a node by both value and position
+- Insert a node at desired position
